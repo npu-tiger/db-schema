@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS npudb.recipe (
   description VARCHAR(255) NOT NULL,
   difficulty TINYINT(1) UNSIGNED NULL,
   serving_amount INT UNSIGNED NULL,
-  cooling_time INT UNSIGNED NULL,
+  cooking_time INT UNSIGNED NULL,
   ingredient VARCHAR(100) NULL,
   direction VARCHAR(5000) NULL,
   nutrition_fact VARCHAR(100) NULL,
